@@ -37,10 +37,10 @@ class Assets {
      */
     public function get_styles() {
         return [
-            'basic-optimization-admin-style' => [
-                'src'     => BASIC_OPTIMIZATION_ASSETS . '/css/admin.css',
-                'version' => filemtime( BASIC_OPTIMIZATION_PATH . '/assets/css/admin.css' )
-            ],
+            // 'basic-optimization-admin-style' => [
+            //     'src'     => BASIC_OPTIMIZATION_ASSETS . '/css/admin.css',
+            //     'version' => filemtime( BASIC_OPTIMIZATION_PATH . '/assets/css/admin.css' )
+            // ],
         ];
     }
 

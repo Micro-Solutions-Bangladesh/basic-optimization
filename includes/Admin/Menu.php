@@ -38,7 +38,7 @@ class Menu {
      * @return void
      */
     public function enqueue_assets() {
-        wp_enqueue_style( 'basic-optimization-admin-style' );
+        // wp_enqueue_style( 'basic-optimization-admin-style' );
         // wp_enqueue_script( 'basic-optimization-admin-script' );
     }
 }
