@@ -48,6 +48,8 @@ final class Basic_Optimization {
         register_activation_hook( __FILE__, [ $this, 'activate' ] );
 
         add_action( 'plugins_loaded', [ $this, 'init_plugin' ] );
+
+        add_filter( 'plugin_action_links_' . plugin_basename(__FILE__), [ $this, 'settings_link' ] );
     }
 
     /**
@@ -102,6 +104,19 @@ final class Basic_Optimization {
     public function activate() {
         $installer = new Basic\Optimization\Installer();
         $installer->run();
+    }
+
+    /**
+     * Applied to the list of links to display on the plugins page (beside the activate/deactivate links).
+     * 
+     * @return array list of links
+     */
+    public function settings_link ( $links ) {
+        $mylinks = [
+            '<a href="' . admin_url( 'options-general.php?page=basic-optimization' ) . '">Settings</a>',
+        ];
+
+       return array_merge( $links, $mylinks );
     }
 }
 
