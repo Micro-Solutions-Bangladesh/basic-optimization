@@ -9,7 +9,7 @@
  * that starts the plugin.
  *
  * @wordpress-plugin
- * Plugin Name:     Basic Optimization for WordPress
+ * Plugin Name:     Basic Optimization
  * Plugin URI:      https://github.com/Micro-Solutions-Bangladesh/basic-optimization
  * Description:     Very basic features offering by Basic Optimization for WordPress plugin. Like - Disable Emoticons, Remove Shortlink, Disable Embeds, Disable XML-RPC, Hide WordPress Version, etc. You will always able to manage this option from the setting page of the Basic Optimization for WordPress plugin. This plugin is an open source project, made possible by your contribution (code).
  * Version:         1.0

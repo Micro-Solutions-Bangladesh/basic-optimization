@@ -1,4 +1,4 @@
-=== Basic Optimization for WordPress ===
+=== Basic Optimization ===
 Contributors: shahalom
 Tags: basic optimization, wordpress optimization, disable emoji, remove shortlink, remove css version, remove js version, remove rsd links, disable embeds, disable xml-rpc, remove wlmanifest link, disable self pingback, hide wordpress version, disable heartbeat
 Requires at least: 5.1
