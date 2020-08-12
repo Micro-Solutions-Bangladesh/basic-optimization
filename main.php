@@ -12,12 +12,12 @@
  * Plugin Name:     Basic Optimization
  * Plugin URI:      https://github.com/Micro-Solutions-Bangladesh/basic-optimization
  * Description:     Very basic features offering by Basic Optimization for WordPress plugin. Like - Disable Emoticons, Remove Shortlink, Disable Embeds, Disable XML-RPC, Hide WordPress Version, etc. You will always able to manage this option from the setting page of the Basic Optimization for WordPress plugin. This plugin is an open source project, made possible by your contribution (code).
- * Version:         1.0
- * Author:          Shah Alom
- * Author URI:      https://twitter.com/shahalom_amin
- * License:			GPLv3
- * License URI:		https://www.gnu.org/licenses/gpl-3.0
- * Text Domain:		basic-optimization
+ * Version:            1.0
+ * Author:              Micro Solutions Bangladesh
+ * Author URI:       http://microsolutionsbd.com/
+ * License:			   GPLv3
+ * License URI:     https://www.gnu.org/licenses/gpl-3.0
+ * Text Domain:    basic-optimization
  * Domain Path:		/languages
  */
 
